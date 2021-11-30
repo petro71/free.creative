@@ -1,0 +1,161 @@
+@font-face {
+  font-family: '20 Kopeek';
+  src: url('../fonts/20Kopeek.eot');
+  src: url('../fonts/20Kopeek.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/20Kopeek.woff2') format('woff2'),
+  url('../fonts/20Kopeek.woff') format('woff'),
+  url('../fonts/20Kopeek.ttf') format('truetype'),
+  url('../fonts/20Kopeek.svg#20Kopeek') format('svg'),
+  url('../fonts/20Kopeek.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '20 Kopeek';
+  src: url('../fonts/20Kopeek-Book.eot');
+  src: url('../fonts/20Kopeek-Book.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/20Kopeek-Book.woff2') format('woff2'),
+  url('../fonts/20Kopeek-Book.woff') format('woff'),
+  url('../fonts/20Kopeek-Book.ttf') format('truetype'),
+  url('../fonts/20Kopeek-Book.svg#20Kopeek-Book') format('svg'),
+  url('../fonts/20Kopeek-Book.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@import "owl.carousel.css";
+@import "owl.theme.default.css";
+
+header{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 3;
+}
+
+.main_banner{
+  .text_banner{
+    padding-top: 344px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+  }
+  .banner{
+    height: 100vh;
+    background-position: center top;
+    background-size: cover;
+  }
+  .banner_1{
+    background-image: url("../images/011.jpg");
+  }
+  .banner_2{
+    background-image: url("../images/012.jpg");
+  }
+  .banner_3{
+    background-image: url("../images/013.jpg");
+  }
+  .banner_4{
+    background-image: url("../images/014.jpg");
+  }
+}
+
+.fm_style{
+  padding: 70px 0 150px;
+  img{
+    width: 100%;
+    display: block;
+  }
+  p{
+    font-size: 18px;
+    line-height: 25px;
+    margin-left: 8px;
+    color: #181818;
+    padding-top: 27px;
+    }
+  .blue1{
+    color: #FFFFFF;
+    background-color: #2B59C3;
+    border-radius: 5px;
+    padding: 13px 17px;
+  }
+  span{
+    color: #181818;
+    font-size: 55px;
+    line-height: 55px;
+  }
+
+}
+.portfolio{
+  article{
+    margin-right: 89px;
+    h2{
+      font-family: "20Kopeek-Book";
+      font-size: 55px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 55px;
+      letter-spacing: 0;
+      text-align: left;
+    }
+    p{
+      //styleName: Desk — Body;
+      font-family: "20Kopeek";
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 25px;
+      letter-spacing: 0;
+      text-align: left;
+
+    }
+  }
+  .btn{
+    /* Смотреть проект */
+
+
+
+    padding: 23px 47px;
+    height: 25px;
+
+
+    //styleName: Desk — Body;
+    font-family: "20Kopeek";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50px;
+    border: solid #181818 2px;
+  }
+}
+.step_style{
+  color: #181818;
+  h2{
+    //styleName: Desk — H1;
+    font-family: "20Kopeek-Book";
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 55px;
+  }
+  h3{
+    //styleName: Desk — Body;
+    font-family: "20Kopeek";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  p{
+    //styleName: Desk — Notes;
+    font-family: "20Kopeek";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+  }
+}
