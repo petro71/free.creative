@@ -27,6 +27,11 @@
 }
 @import "owl.carousel.css";
 @import "owl.theme.default.css";
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
 
 header{
   position: absolute;
@@ -159,3 +164,86 @@ header{
     line-height: 19px;
   }
 }
+.about_text p{
+  padding: 20px;
+  margin-bottom: 50px;
+}
+.about_text p:last-of-type{
+  background-color: blue;
+  border-radius: 4px;
+}
+
+.freelanc{
+  padding: 150px 0;
+  .col-xl-2{
+    &:first-of-type{
+      background-color: #2B59C3;
+      border-radius: 10px 10px 0 0;
+      font-size: 26px;
+      color: white;
+      display: flex;
+      //align-items: center;
+      p{
+        margin-bottom: 0;
+      }
+      &.blue_2{
+        border-radius: 0;
+      }
+    }
+  }
+  .col-md-4{
+    &:first-of-type, &:nth-child(2), &:last-of-type{
+      border-bottom: solid 1px #868686;
+      @include max-screen(992px){
+        border-bottom: none;
+      }
+      &.border_blue{
+        border: solid 4px #2B59C3;
+        border-bottom: none;
+        border-radius: 10px 10px 0 0;
+      }
+      h3{
+        color: #868686;
+        font-size: 38px;
+        min-height: 84px;
+        line-height: 41px;
+      }
+      p{
+        color: #868686;
+        padding-top: 14px;
+        font-size: 15px;
+        margin-bottom: 0;
+        line-height: 19px;
+        padding-bottom: 26px;
+      }
+    }
+  }
+  .next{
+    .frelan{
+      &.border_blue{
+        border: solid 4px #2B59C3;
+        border-bottom: none;
+        border-top: none;
+        border-radius: 0;
+      }
+      p{
+        padding-top: 26px;
+        padding-bottom: 26px;
+      }
+    }
+    .blue{
+      align-items:start;
+      padding-top: 16px;
+      @include max-screen(1024px){
+        padding-bottom: 16px;
+      }
+    }
+  }
+  br{
+    @include max-screen(1024px){
+      display: none;
+    }
+  }
+
+}
+
