@@ -66,6 +66,9 @@ header {
 .portfolio article {
   margin-right: 89px; }
   .portfolio article h2 {
+    margin-top: 38px;
+    padding-top: 7px;
+    padding-bottom: 7px;
     font-family: "20Kopeek-Book";
     font-size: 55px;
     font-style: normal;
@@ -83,8 +86,10 @@ header {
     text-align: left; }
 .portfolio .btn {
   /* Смотреть проект */
+  margin-top: 38px;
   padding: 23px 47px;
   height: 25px;
+  box-sizing: content-box;
   font-family: "20Kopeek";
   font-size: 18px;
   font-weight: 400;

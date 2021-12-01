@@ -96,9 +96,15 @@ header{
 
 }
 .portfolio{
+  .d-sm-flex d-block{
+
+  }
   article{
     margin-right: 89px;
     h2{
+      margin-top: 38px;
+      padding-top: 7px;
+      padding-bottom: 7px;
       font-family: "20Kopeek-Book";
       font-size: 55px;
       font-style: normal;
@@ -123,9 +129,10 @@ header{
     /* Смотреть проект */
 
 
-
+    margin-top: 38px;
     padding: 23px 47px;
     height: 25px;
+    box-sizing: content-box;
 
 
     //styleName: Desk — Body;
