@@ -1,5 +1,5 @@
 @font-face {
-  font-family: '20 Kopeek';
+  font-family: '20Kopeek';
   src: url('../fonts/20Kopeek.eot');
   src: url('../fonts/20Kopeek.eot?#iefix') format('embedded-opentype'),
   url('../fonts/20Kopeek.woff2') format('woff2'),
@@ -13,7 +13,7 @@
 }
 
 @font-face {
-  font-family: '20 Kopeek';
+  font-family: '20Kopeek-Book';
   src: url('../fonts/20Kopeek-Book.eot');
   src: url('../fonts/20Kopeek-Book.eot?#iefix') format('embedded-opentype'),
   url('../fonts/20Kopeek-Book.woff2') format('woff2'),
@@ -251,6 +251,53 @@ header{
       display: none;
     }
   }
-
 }
+.preference{
+  @include max-screen(576px){
+    display: none;
+  }
+  .container{
+    background-image: url("../images/Rectangle32.jpg");
+    height: 100%;
+    background-position: center top;
+    background-size: cover;
+
+     h3{
+       color: #FFFFFF;
+       font-family: "20Kopeek-Book";
+       font-size: 55px;
+       font-weight: 400;
+       line-height: 55px;
+       text-align: left;
+
+     }
+     .col-xl-2 {
+       &:first-of-type {
+        @media (min-width:1140px){
+          margin-left: 55px;
+        }
+
+
+       }
+     }
+      span{
+       color: #FFFFFF;
+       font-family: "20Kopeek-Book";
+       font-size: 55px;
+       font-weight: 400;
+       line-height: 55px;
+       text-align: left;
+       }
+       p{
+        color: #FFFFFF;
+        font-family: "20Kopeek";
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 19px;
+        text-align: left;
+       }
+
+  }
+}
+
 
