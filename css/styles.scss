@@ -1,5 +1,5 @@
 @font-face {
-  font-family: '20Kopeek';
+  font-family: "20Kopeek";
   src: url('../fonts/20Kopeek.eot');
   src: url('../fonts/20Kopeek.eot?#iefix') format('embedded-opentype'),
   url('../fonts/20Kopeek.woff2') format('woff2'),
@@ -13,7 +13,7 @@
 }
 
 @font-face {
-  font-family: '20Kopeek-Book';
+  font-family: "20Kopeek-Book";
   src: url('../fonts/20Kopeek-Book.eot');
   src: url('../fonts/20Kopeek-Book.eot?#iefix') format('embedded-opentype'),
   url('../fonts/20Kopeek-Book.woff2') format('woff2'),
@@ -147,6 +147,28 @@ header{
     border: solid #181818 2px;
   }
 }
+
+.contact_email{
+  h2{
+    color: #181818;
+        font-family: "20Kopeek-Book";
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 37px;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  p{
+    color: #181818;
+    font-family: "20Kopeek-Book";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+  }
+
+}
 .step_style{
   color: #181818;
   h2{
@@ -253,14 +275,16 @@ header{
   }
 }
 .preference{
+  background-image: url("../images/Rectangle32.jpg");
+  height: 100%;
+  background-position: center top;
+  background-size: cover;
   @include max-screen(576px){
     display: none;
+
   }
   .container{
-    background-image: url("../images/Rectangle32.jpg");
-    height: 100%;
-    background-position: center top;
-    background-size: cover;
+
 
      h3{
        color: #FFFFFF;
@@ -269,12 +293,13 @@ header{
        font-weight: 400;
        line-height: 55px;
        text-align: left;
+       margin-top: 282px;
 
      }
      .col-xl-2 {
        &:first-of-type {
         @media (min-width:1140px){
-          margin-left: 55px;
+          margin-left: 10px;
         }
 
 
@@ -286,6 +311,7 @@ header{
        font-size: 55px;
        font-weight: 400;
        line-height: 55px;
+
        text-align: left;
        }
        p{
@@ -296,7 +322,6 @@ header{
         line-height: 19px;
         text-align: left;
        }
-
   }
 }
 

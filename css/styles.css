@@ -2,14 +2,14 @@
 @import url(owl.carousel.css);
 @import url(owl.theme.default.css);
 @font-face {
-  font-family: '20Kopeek';
+  font-family: "20Kopeek";
   src: url("../fonts/20Kopeek.eot");
   src: url("../fonts/20Kopeek.eot?#iefix") format("embedded-opentype"), url("../fonts/20Kopeek.woff2") format("woff2"), url("../fonts/20Kopeek.woff") format("woff"), url("../fonts/20Kopeek.ttf") format("truetype"), url("../fonts/20Kopeek.svg#20Kopeek") format("svg"), url("../fonts/20Kopeek.otf") format("otf");
   font-weight: normal;
   font-style: normal;
   font-display: swap; }
 @font-face {
-  font-family: '20Kopeek-Book';
+  font-family: "20Kopeek-Book";
   src: url("../fonts/20Kopeek-Book.eot");
   src: url("../fonts/20Kopeek-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/20Kopeek-Book.woff2") format("woff2"), url("../fonts/20Kopeek-Book.woff") format("woff"), url("../fonts/20Kopeek-Book.ttf") format("truetype"), url("../fonts/20Kopeek-Book.svg#20Kopeek-Book") format("svg"), url("../fonts/20Kopeek-Book.otf") format("otf");
   font-weight: normal;
@@ -101,6 +101,23 @@ header {
   border-radius: 50px;
   border: solid #181818 2px; }
 
+.contact_email h2 {
+  color: #181818;
+  font-family: "20Kopeek-Book";
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 37px;
+  text-align: left;
+  margin-bottom: 10px; }
+.contact_email p {
+  color: #181818;
+  font-family: "20Kopeek-Book";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left; }
+
 .step_style {
   color: #181818; }
   .step_style h2 {
@@ -178,24 +195,25 @@ header {
     .freelanc br {
       display: none; } }
 
-@media screen and (max-width: 576px) {
-  .preference {
-    display: none; } }
-.preference .container {
+.preference {
   background-image: url("../images/Rectangle32.jpg");
   height: 100%;
   background-position: center top;
   background-size: cover; }
+  @media screen and (max-width: 576px) {
+    .preference {
+      display: none; } }
   .preference .container h3 {
     color: #FFFFFF;
     font-family: "20Kopeek-Book";
     font-size: 55px;
     font-weight: 400;
     line-height: 55px;
-    text-align: left; }
+    text-align: left;
+    margin-top: 282px; }
   @media (min-width: 1140px) {
     .preference .container .col-xl-2:first-of-type {
-      margin-left: 55px; } }
+      margin-left: 10px; } }
   .preference .container span {
     color: #FFFFFF;
     font-family: "20Kopeek-Book";
