@@ -32,6 +32,20 @@
     @content;
   }
 }
+@media (min-width: 768px){
+  button.navbar-expand-lg .navbar-toggler {
+  display: none;
+  }
+
+}
+@media (min-width: 768px){
+  div.navbar-expand-lg .navbar-collapse {
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+  }
+}
 
 header{
   position: absolute;
@@ -39,8 +53,62 @@ header{
   left: 0;
   top: 0;
   z-index: 3;
-}
+  color: #FFFFFF;
+  .logo-container{
+    display: flex;
+    justify-content: space-between;
+  }
+  .navbar-toggler-icon{
+    background-image: url("../images/burgermenu.svg");
+  }
+  .collapse{
+    span{
+      border: 1px solid;
+      border-radius: 10px;
+      padding: 7px 27px 7px 33px;
+      font-family: "20Kopeek";
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 22px;
+      text-align: left;
+    }
+    a{
+      color: #FFFFFF;
+      border-radius: 50%;
+      border: 1px solid #FFFFFF;
+      padding: 5px 7px;
+      margin: 0 14px;
 
+    }
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .main_banner{
+    .owl-carousel {
+      .banner_1{
+        background-image: url("../images/Rectangle52.jpg");
+      }
+    }
+  }
+}
+@media (min-width: 360px) and (max-width: 576px) {
+  .main_banner{
+    .owl-carousel {
+      .banner_1{
+        background-image: url("../images/Rectangle5.jpg");
+      }
+    }
+  }
+}
+@media (max-width: 360px) {
+  .main_banner{
+    .owl-carousel {
+      .banner_1{
+        background-image: url("../images/Rectangle5.jpg");
+      }
+    }
+  }
+}
 .main_banner{
   .text_banner{
     padding-top: 344px;
