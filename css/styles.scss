@@ -82,7 +82,150 @@ header{
     }
   }
 }
-@media (min-width: 576px) and (max-width: 768px) {
+@media (min-width: 1201px){
+  h1.politics{
+    margin-top: 90px;
+    margin-bottom: 90px;
+    width: 540px;
+    font-family: "20Kopeek-Book";
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: left;
+    color: black;
+    text-decoration-line: underline ;
+    a:link {
+      color: #181818;
+    }
+    a:visited {
+      color: #181818;
+    }
+    a:hover {
+      color: #181818;
+      border-bottom: 1px solid;
+    }
+    a:active {
+      color: #181818;
+      border-bottom: 1px solid;
+    }
+  }
+  .main_text{
+    width: 730px;
+    font-family: "20Kopeek";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+  }
+
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  h1.politics{
+    margin-top: 90px;
+    margin-bottom: 70px;
+    width: 540px;
+    font-family: "20Kopeek-Book";
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: left;
+    color: black;
+    text-decoration-line: underline ;
+    a:link {
+      color: #181818;
+    }
+    a:visited {
+      color: #181818;
+    }
+    a:hover {
+      color: #181818;
+      border-bottom: 1px solid;
+    }
+    a:active {
+      color: #181818;
+      border-bottom: 1px solid;
+    }
+  }
+  .main_text{
+    width: 730px;
+    font-family: "20Kopeek";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  h1.politics{
+    margin-top: 90px;
+    margin-bottom: 70px;
+    width: 540px;
+    font-family: "20Kopeek-Book";
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: left;
+    color: black;
+    text-decoration-line: underline ;
+    a:link {
+      color: #181818;
+    }
+    a:visited {
+      color: #181818;
+    }
+    a:hover {
+      color: #181818;
+      border-bottom: 1px solid;
+    }
+    a:active {
+      color: #181818;
+      border-bottom: 1px solid;
+    }
+  }
+  .main_text{
+    width: 691px;
+    font-family: "20Kopeek";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  h1.politics{
+    margin-top: 90px;
+    margin-bottom: 60px;
+    width: 511px;
+    font-family: "20Kopeek-Book";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: left;
+    color: black;
+    text-decoration-line: underline ;
+    a:link {
+      color: #181818;
+    }
+    a:visited {
+      color: #181818;
+    }
+    a:hover {
+      color: #181818;
+      border-bottom: 1px solid;
+    }
+    a:active {
+      color: #181818;
+      border-bottom: 1px solid;
+    }
+  }
+  .main_text{
+    width: 510px;
+    font-family: "20Kopeek";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+  }
   .main_banner{
     .owl-carousel {
       .banner_1{
@@ -92,6 +235,40 @@ header{
   }
 }
 @media (min-width: 360px) and (max-width: 576px) {
+  h1.politics{
+    margin-top: 90px;
+    margin-bottom: 60px;
+    width: 290px;
+    font-family: "20Kopeek-Book";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: left;
+    color: black;
+    text-decoration-line: underline ;
+    a:link {
+      color: #181818;
+    }
+    a:visited {
+      color: #181818;
+    }
+    a:hover {
+      color: #181818;
+      border-bottom: 1px solid;
+    }
+    a:active {
+      color: #181818;
+      border-bottom: 1px solid;
+    }
+  }
+  .main_text{
+    width: 290px;
+    font-family: "20Kopeek";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+  }
   .main_banner{
     .owl-carousel {
       .banner_1{
@@ -101,6 +278,40 @@ header{
   }
 }
 @media (max-width: 360px) {
+  h1.politics{
+    margin-top: 90px;
+    margin-bottom: 60px;
+    width: 290px;
+    font-family: "20Kopeek-Book";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: left;
+    color: black;
+    text-decoration-line: underline ;
+    a:link {
+      color: #181818;
+    }
+    a:visited {
+      color: #181818;
+    }
+    a:hover {
+      color: #181818;
+      border-bottom: 1px solid;
+    }
+    a:active {
+      color: #181818;
+      border-bottom: 1px solid;
+    }
+  }
+  .main_text{
+    width: 290px;
+    font-family: "20Kopeek";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+  }
   .main_banner{
     .owl-carousel {
       .banner_1{
