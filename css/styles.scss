@@ -38,16 +38,20 @@
   }
 
 }
-@media (min-width: 768px){
-  div.navbar-expand-lg .navbar-collapse {
-    display: -ms-flexbox!important;
-    display: flex!important;
-    -ms-flex-preferred-size: auto;
-    flex-basis: auto;
-  }
-}
+
 
 header{
+  @media (min-width: 768px){
+    div.navbar-expand-lg .navbar-collapse {
+
+
+
+    //* display: -ms-flexbox!important;
+    //display: flex!important;
+    //-ms-flex-preferred-size: auto;
+    //flex-basis: auto;
+    }
+  }
   position: absolute;
   width: 100%;
   left: 0;
@@ -58,25 +62,32 @@ header{
     display: flex;
     justify-content: space-between;
   }
-  .navbar-toggler-icon{
-    background-image: url("../images/burgermenu.svg");
+  @include max-screen(768px){
+     .navbar-toggler-icon{
+      background-image: url("../images/burgermenu.svg");
+     }
   }
   .collapse{
+
     span{
       border: 1px solid;
-      border-radius: 10px;
+      border-radius: 20px;
       padding: 7px 27px 7px 33px;
       font-family: "20Kopeek";
       font-size: 16px;
       font-weight: 400;
       line-height: 22px;
       text-align: left;
+      margin-left: 220px;
+      @include max-screen(992px){
+        margin-left: 0;
+      }
     }
     a{
       color: #FFFFFF;
       border-radius: 50%;
       border: 1px solid #FFFFFF;
-      padding: 5px 7px;
+      padding: 3px 7px;
       margin: 0 14px;
 
     }
@@ -227,6 +238,27 @@ header{
     text-align: left;
   }
   .main_banner{
+    color: #ffffff;
+    h1{
+
+      font-family: "20Kopeek";
+      font-size: 45px;
+      font-weight: 400;
+      line-height: 45px;
+      text-align: left;
+      width: 480px;
+    }
+    p{
+      color: #ffffff;
+      font-family: "20Kopeek";
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 22px;
+      text-align: left;
+      margin-top: 25px;
+      width: 185px;
+
+    }
     .owl-carousel {
       .banner_1{
         background-image: url("../images/Rectangle52.jpg");
@@ -269,13 +301,37 @@ header{
     line-height: 21px;
     text-align: left;
   }
+
   .main_banner{
+    color: #FFFFFF;
+    h1{
+
+      font-family: "20Kopeek";
+      font-size: 30px;
+      font-weight: 400;
+      line-height: 33px;
+      text-align: left;
+      position: absolute;
+      top: 148px;
+      width: 330px;
+    }
+    p{
+      font-family: "20Kopeek";
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 22px;
+      text-align: left;
+      margin-top: 15px;
+      width: 185px;
+    }
+
     .owl-carousel {
       .banner_1{
         background-image: url("../images/Rectangle5.jpg");
       }
     }
   }
+
 }
 @media (max-width: 360px) {
   h1.politics{
@@ -313,6 +369,25 @@ header{
     text-align: left;
   }
   .main_banner{
+    h1{
+      color: #ffffff;
+      font-family: "20Kopeek";
+      font-size: 30px;
+      font-weight: 400;
+      line-height: 33px;
+      text-align: left;
+      position: absolute;
+      top: 145px;
+      width: 240px;
+    }
+    p{
+      font-family: "20Kopeek";
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 22px;
+      text-align: left;
+      margin-top: 15px;
+    }
     .owl-carousel {
       .banner_1{
         background-image: url("../images/Rectangle5.jpg");
@@ -322,12 +397,34 @@ header{
 }
 .main_banner{
   .text_banner{
-    padding-top: 344px;
+    padding-top: 244px;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 2;
+    .btn{
+      /* Смотреть проект */
+      color: #181818;
+      background-color: #FFFFFF;
+      margin-top: 38px;
+      padding: 23px 47px;
+      height: 25px;
+      box-sizing: content-box;
+      margin-bottom: 60px;
+
+      //styleName: Desk — Body;
+      font-family: "20Kopeek";
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 25px;
+      letter-spacing: 0;
+      text-align: center;
+      vertical-align: middle;
+      border-radius: 50px;
+      border: solid #181818 2px;
+    }
+
   }
   .banner{
     height: 100vh;
@@ -606,9 +703,29 @@ header{
 .contact_email2{
 
   .us{
+    h2{
+
+      font-family: "20Kopeek-Book";
+      font-size: 32px;
+      font-weight: 400;
+      line-height: 35px;
+      text-align: left;
+
+    }
     .blue{
       background-color: #2B59C3;
       border-radius: 10px;
+      width:25%;
+      margin: 0;
+      p{
+        color: #ffffff;
+        font-family: "20Kopeek";
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 21px;
+      }
+
+
 
     }
   }

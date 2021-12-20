@@ -18,12 +18,6 @@
 @media (min-width: 768px) {
   button.navbar-expand-lg .navbar-toggler {
     display: none; } }
-@media (min-width: 768px) {
-  div.navbar-expand-lg .navbar-collapse {
-    display: -ms-flexbox !important;
-    display: flex !important;
-    -ms-flex-preferred-size: auto;
-    flex-basis: auto; } }
 header {
   position: absolute;
   width: 100%;
@@ -34,22 +28,27 @@ header {
   header .logo-container {
     display: flex;
     justify-content: space-between; }
-  header .navbar-toggler-icon {
-    background-image: url("../images/burgermenu.svg"); }
+  @media screen and (max-width: 768px) {
+    header .navbar-toggler-icon {
+      background-image: url("../images/burgermenu.svg"); } }
   header .collapse span {
     border: 1px solid;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 7px 27px 7px 33px;
     font-family: "20Kopeek";
     font-size: 16px;
     font-weight: 400;
     line-height: 22px;
-    text-align: left; }
+    text-align: left;
+    margin-left: 220px; }
+    @media screen and (max-width: 992px) {
+      header .collapse span {
+        margin-left: 0; } }
   header .collapse a {
     color: #FFFFFF;
     border-radius: 50%;
     border: 1px solid #FFFFFF;
-    padding: 5px 7px;
+    padding: 3px 7px;
     margin: 0 14px; }
 
 @media (min-width: 1201px) {
@@ -173,8 +172,26 @@ header {
     line-height: 21px;
     text-align: left; }
 
-  .main_banner .owl-carousel .banner_1 {
-    background-image: url("../images/Rectangle52.jpg"); } }
+  .main_banner {
+    color: #ffffff; }
+    .main_banner h1 {
+      font-family: "20Kopeek";
+      font-size: 45px;
+      font-weight: 400;
+      line-height: 45px;
+      text-align: left;
+      width: 480px; }
+    .main_banner p {
+      color: #ffffff;
+      font-family: "20Kopeek";
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 22px;
+      text-align: left;
+      margin-top: 25px;
+      width: 185px; }
+    .main_banner .owl-carousel .banner_1 {
+      background-image: url("../images/Rectangle52.jpg"); } }
 @media (min-width: 360px) and (max-width: 576px) {
   h1.politics {
     margin-top: 90px;
@@ -206,8 +223,27 @@ header {
     line-height: 21px;
     text-align: left; }
 
-  .main_banner .owl-carousel .banner_1 {
-    background-image: url("../images/Rectangle5.jpg"); } }
+  .main_banner {
+    color: #FFFFFF; }
+    .main_banner h1 {
+      font-family: "20Kopeek";
+      font-size: 30px;
+      font-weight: 400;
+      line-height: 33px;
+      text-align: left;
+      position: absolute;
+      top: 148px;
+      width: 330px; }
+    .main_banner p {
+      font-family: "20Kopeek";
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 22px;
+      text-align: left;
+      margin-top: 15px;
+      width: 185px; }
+    .main_banner .owl-carousel .banner_1 {
+      background-image: url("../images/Rectangle5.jpg"); } }
 @media (max-width: 360px) {
   h1.politics {
     margin-top: 90px;
@@ -239,15 +275,50 @@ header {
     line-height: 21px;
     text-align: left; }
 
+  .main_banner h1 {
+    color: #ffffff;
+    font-family: "20Kopeek";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: left;
+    position: absolute;
+    top: 145px;
+    width: 240px; }
+  .main_banner p {
+    font-family: "20Kopeek";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    margin-top: 15px; }
   .main_banner .owl-carousel .banner_1 {
     background-image: url("../images/Rectangle5.jpg"); } }
 .main_banner .text_banner {
-  padding-top: 344px;
+  padding-top: 244px;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 2; }
+  .main_banner .text_banner .btn {
+    /* Смотреть проект */
+    color: #181818;
+    background-color: #FFFFFF;
+    margin-top: 38px;
+    padding: 23px 47px;
+    height: 25px;
+    box-sizing: content-box;
+    margin-bottom: 60px;
+    font-family: "20Kopeek";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50px;
+    border: solid #181818 2px; }
 .main_banner .banner {
   height: 100vh;
   background-position: center top;
@@ -448,9 +519,23 @@ header {
     line-height: 19px;
     text-align: left; }
 
+.contact_email2 .us h2 {
+  font-family: "20Kopeek-Book";
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: left; }
 .contact_email2 .us .blue {
   background-color: #2B59C3;
-  border-radius: 10px; }
+  border-radius: 10px;
+  width: 25%;
+  margin: 0; }
+  .contact_email2 .us .blue p {
+    color: #ffffff;
+    font-family: "20Kopeek";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px; }
 .contact_email2 span {
   font-family: "20Kopeek";
   font-size: 16px;
