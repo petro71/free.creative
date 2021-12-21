@@ -275,25 +275,27 @@ header {
     line-height: 21px;
     text-align: left; }
 
-  .main_banner h1 {
-    color: #ffffff;
-    font-family: "20Kopeek";
-    font-size: 30px;
-    font-weight: 400;
-    line-height: 33px;
-    text-align: left;
-    position: absolute;
-    top: 145px;
-    width: 240px; }
-  .main_banner p {
-    font-family: "20Kopeek";
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 22px;
-    text-align: left;
-    margin-top: 15px; }
-  .main_banner .owl-carousel .banner_1 {
-    background-image: url("../images/Rectangle5.jpg"); } }
+  .main_banner {
+    color: #ffffff; }
+    .main_banner h1 {
+      color: #ffffff;
+      font-family: "20Kopeek";
+      font-size: 30px;
+      font-weight: 400;
+      line-height: 33px;
+      text-align: left;
+      position: absolute;
+      top: 100px;
+      width: 240px; }
+    .main_banner p {
+      font-family: "20Kopeek";
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 22px;
+      text-align: left;
+      margin-top: 15px; }
+    .main_banner .owl-carousel .banner_1 {
+      background-image: url("../images/Rectangle5.jpg"); } }
 .main_banner .text_banner {
   padding-top: 244px;
   position: absolute;
